@@ -13,7 +13,6 @@ hData = read.csv( fName,header=FALSE, sep = ";",
                   na.strings=c("?"),
                   col.names=cNames[1,] )
 
-par(mfcol=c(1,1))
 png("plot4.png")
 par(mfcol=c(2,2))
 ##1,1
